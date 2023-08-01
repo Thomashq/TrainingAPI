@@ -16,7 +16,7 @@ namespace Utility
         }
 
         public DbSet<Mail>? Mail { get; set; }
-
+        public DbSet<Person>? Person { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

@@ -26,7 +26,6 @@ namespace TrainingAPI.Controllers
 
                 return Ok(new
                 {
-                    success = true,
                     data = mailToSend
                 });
             }
